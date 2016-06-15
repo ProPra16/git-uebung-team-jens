@@ -17,6 +17,11 @@
     	<Button button="Alert"
     		onAction="#alertTest">
     </HBox>
+    <HBox spacing="10" alignment="bottom_right"
+	  GridPane.columIndex="1" GridPane.rowIndex="4">
+	 <Button text="Button"
+	  onAction="#useButton"/>
+	 </HBox>
 
     <HBox spacing="10" alignment="bottom_center"
           GridPane.columnIndex="1" GridPane.rowIndex="4">
