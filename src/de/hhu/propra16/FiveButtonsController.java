@@ -12,4 +12,11 @@ public class FiveButtonsController {
 		System.exit(0);
 		
 	}
+
+    @FXML
+    protected void handleExitButton(ActionEvent event){
+
+        System.exit(0);
+
+    }
 }
