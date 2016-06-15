@@ -4,6 +4,8 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 
+
+
 /**
  * Created by Tobias Witt on 06.06.16.
  */
@@ -16,5 +18,12 @@ public class FiveButtonsController {
 		alert.showAndWait();
 
 	}
+
+    @FXML
+    protected void handleExitButton(ActionEvent event){
+
+        System.exit(0);
+
+    }
 
 }
