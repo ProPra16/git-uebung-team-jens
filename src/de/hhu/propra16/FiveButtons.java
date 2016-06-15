@@ -16,8 +16,7 @@ public class FiveButtons extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/five_buttons" +
-                ".fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../res/five_buttons.fxml"));
 
         primaryStage.setTitle("Five Buttons");
         primaryStage.setScene(new Scene(root, 800, 600));

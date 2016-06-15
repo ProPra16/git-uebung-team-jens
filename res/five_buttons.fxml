@@ -11,5 +11,10 @@
     <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <HBox spacing="10" alignment="top_right"
+    	GridPane.columnIndex="1" GridPane.rowIndex="0">
+    	<Button button="Alert"
+    		onAction="#alertTest">
+    </HBox>
 
 </GridPane>
